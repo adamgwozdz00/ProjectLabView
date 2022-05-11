@@ -18,6 +18,9 @@
 				<Item Name="image_reader.vi" Type="VI" URL="../image_reader.vi"/>
 			</Item>
 			<Item Name="main_project.vi" Type="VI" URL="../main_project.vi"/>
+			<Item Name="roi_points_extractor.vi" Type="VI" URL="../images/roi_points_extractor.vi"/>
+			<Item Name="roi_tag_drawer.vi" Type="VI" URL="../roi_tag_drawer.vi"/>
+			<Item Name="tag_factory.vi" Type="VI" URL="../tag_factory.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
