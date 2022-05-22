@@ -1,2 +1,0 @@
-C:\Users\Adam\Documents\project\main_project.vi (main_project.vi)
-    - The VI expected to be at "C:\Users\Adam\Documents\project\images\roi_points_extractor.vi" was loaded from "C:\Users\Adam\Documents\project\roi_points_extractor.vi".
