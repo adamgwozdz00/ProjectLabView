@@ -10,19 +10,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="examples" Type="Folder">
-			<Item Name="roi_descriptor_example_updated.vi" Type="VI" URL="../../../Downloads/roi_descriptor_example_updated.vi"/>
-		</Item>
 		<Item Name="src" Type="Folder">
-			<Item Name="utils" Type="Folder">
-				<Item Name="image_reader.vi" Type="VI" URL="../image_reader.vi"/>
-				<Item Name="xml_parse_proba.vi" Type="VI" URL="../xml_parse_proba.vi"/>
-			</Item>
 			<Item Name="data_mapper.vi" Type="VI" URL="../data_mapper.vi"/>
+			<Item Name="extract_roi_points.vi" Type="VI" URL="../extract_roi_points.vi"/>
 			<Item Name="file_name_generator.vi" Type="VI" URL="../file_name_generator.vi"/>
-			<Item Name="image_info_service.vi" Type="VI" URL="../image_info_service.vi"/>
-			<Item Name="main_project.vi" Type="VI" URL="../main_project.vi"/>
-			<Item Name="roi_points_extractor.vi" Type="VI" URL="../roi_points_extractor.vi"/>
+			<Item Name="get_full_image_info.vi" Type="VI" URL="../get_full_image_info.vi"/>
+			<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+			<Item Name="read_img.vi" Type="VI" URL="../read_img.vi"/>
 			<Item Name="roi_tag_drawer.vi" Type="VI" URL="../roi_tag_drawer.vi"/>
 			<Item Name="show_image_names.vi" Type="VI" URL="../show_image_names.vi"/>
 			<Item Name="tag_factory.vi" Type="VI" URL="../tag_factory.vi"/>
