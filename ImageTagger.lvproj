@@ -15,6 +15,7 @@
 			<Item Name="extract_roi_points.vi" Type="VI" URL="../extract_roi_points.vi"/>
 			<Item Name="file_name_generator.vi" Type="VI" URL="../file_name_generator.vi"/>
 			<Item Name="get_full_image_info.vi" Type="VI" URL="../get_full_image_info.vi"/>
+			<Item Name="is_not_missclick.vi" Type="VI" URL="../is_not_missclick.vi"/>
 			<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 			<Item Name="read_img.vi" Type="VI" URL="../read_img.vi"/>
 			<Item Name="roi_tag_drawer.vi" Type="VI" URL="../roi_tag_drawer.vi"/>
