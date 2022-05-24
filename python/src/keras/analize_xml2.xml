@@ -1,0 +1,48 @@
+<annotation>
+  <folder>keras</folder>
+  <filename>image</filename>
+  <size>
+    <width>1400</width>
+    <height>1400</height>
+    <depth_>3</depth_>
+  </size>
+  <object>
+    <name>silver small</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <occluded>0</occluded>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>719</xmin>
+      <ymin>371</ymin>
+      <xmax_>842</xmax_>
+      <ymax>490</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>silver small</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <occluded>0</occluded>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>922</xmin>
+      <ymin>353</ymin>
+      <xmax_>1017</xmax_>
+      <ymax>490</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>black medium</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <occluded>0</occluded>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>809</xmin>
+      <ymin>468</ymin>
+      <xmax_>998</xmax_>
+      <ymax>596</ymax>
+    </bndbox>
+  </object>
+</annotation>
