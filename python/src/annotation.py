@@ -1,16 +1,16 @@
 from typing import List
 
-from src.box import Box
+from src.tag import Tag
 
 
 class Annotation:
     def __init__(self, width: int, height: int):
-        self.__boxes: List[Box] = []
+        self.__tags: List[Tag] = []
         self.__width = width
         self.__height = height
 
-    def push(self, box: Box):
-        self.__boxes.append(box)
+    def push(self, tag: Tag):
+        self.__tags.append(tag)
 
     def get_width(self) -> int:
         return self.__width
@@ -18,5 +18,5 @@ class Annotation:
     def get_height(self) -> int:
         return self.__height
 
-    def get_boxes(self) -> List[Box]:
-        return self.__boxes
+    def get_tags(self) -> List[Tag]:
+        return self.__tags

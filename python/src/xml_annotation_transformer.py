@@ -2,6 +2,7 @@ from xml.etree import ElementTree
 
 from src.annotation import Annotation
 from src.box import Box
+from src.tag import Tag
 
 
 class XmlAnnotationTransformer:
@@ -12,11 +13,14 @@ class XmlAnnotationTransformer:
         height = int(root.find('.//size/height').text)
 
         annotation = Annotation(width=width, height=height)
-        for box in root.findall('.//bndbox'):
+        for obj in root.findall('.//object'):
+            tag_name = obj.find('.//name').text
+
+            box = obj.find('.//bndbox')
             x_min = int(box.find('xmin').text)
             y_min = int(box.find('ymin').text)
             x_max = int(box.find('xmax').text)
             y_max = int(box.find('ymax').text)
-            annotation.push(Box(x_min, x_max, y_min, y_max))
+            annotation.push(Tag(Box(x_min, x_max, y_min, y_max), tag_name))
 
         return annotation
