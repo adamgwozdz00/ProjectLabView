@@ -1,11 +1,12 @@
 from xml.etree import ElementTree
 
-from src.annotation import Annotation
-from src.box import Box
-from src.tag import Tag
+from src.model.annotation import Annotation
+from src.model.box import Box
+from src.model.tag import Tag
+from src.model.i_transformer import Transformer
 
 
-class XmlAnnotationTransformer:
+class XmlAnnotationTransformer(Transformer):
 
     def transform(self, tree: ElementTree) -> Annotation:
         root = tree.getroot()

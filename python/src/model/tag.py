@@ -1,4 +1,4 @@
-from src.box import Box
+from src.model.box import Box
 
 
 class Tag:

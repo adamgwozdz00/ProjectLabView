@@ -1,6 +1,6 @@
 from typing import List
 
-from src.tag import Tag
+from src.model.tag import Tag
 
 
 class Annotation:
