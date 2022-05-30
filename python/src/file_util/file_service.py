@@ -1,4 +1,5 @@
 import os
+from typing import List
 
 
 class FileService:
@@ -19,3 +20,9 @@ class FileService:
         if os.path.isfile(path):
             return True
         return False
+
+    def list_files(self, path_to_dir) -> List[str]:
+        return os.listdir(path_to_dir)
+
+    def get_count_of_files(self, path_to_dir) -> int:
+        return len(self.list_files(path_to_dir))
