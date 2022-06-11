@@ -1,0 +1,9 @@
+silver small
+silver medium
+silver huge
+copper small
+copper medium
+copper huge
+black small
+black mediu
+black huge
