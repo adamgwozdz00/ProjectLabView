@@ -15,8 +15,8 @@
 			<Item Name="extract_roi_points.vi" Type="VI" URL="../extract_roi_points.vi"/>
 			<Item Name="file_name_generator.vi" Type="VI" URL="../file_name_generator.vi"/>
 			<Item Name="get_full_image_info.vi" Type="VI" URL="../get_full_image_info.vi"/>
-			<Item Name="get_image_name.vi" Type="VI" URL="../images/get_image_name.vi"/>
 			<Item Name="is_not_missclick.vi" Type="VI" URL="../is_not_missclick.vi"/>
+			<Item Name="labels_reader.vi" Type="VI" URL="../labels_reader.vi"/>
 			<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 			<Item Name="read_img.vi" Type="VI" URL="../read_img.vi"/>
 			<Item Name="roi_tag_drawer.vi" Type="VI" URL="../roi_tag_drawer.vi"/>
@@ -328,6 +328,7 @@
 				<Item Name="Image Unit" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Unit"/>
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
 				<Item Name="IMAQ GetFileInfo" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ GetFileInfo"/>
+				<Item Name="IMAQ GetImageInfo" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageInfo"/>
 				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
 				<Item Name="IMAQ Overlay ROI" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay ROI"/>
